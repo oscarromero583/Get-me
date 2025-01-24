@@ -4,9 +4,10 @@ import './typewriter.css';
 const sentences = [
   "There are some thing you need to know about me...",
   "I am a Front-End Developer.",
-  "I always open to correction and learning.",
+  "I am always open to correction and learning.",
   "I am team-compatible.",
-  "I am a very wicked person 😂"
+  "I am a very wicked person 😂",
+  "Swear say eh no shock you 😂"
 ];
 
 const TypewriterComponent = () => {
@@ -34,10 +35,12 @@ const TypewriterComponent = () => {
 
   return (
     <div className="typewriter">
-      <p>{sentence}</p>
+      <p>
+        {sentence}
+        <span className="cursor"></span>
+      </p>
     </div>
   );
 };
 
 export default TypewriterComponent;
-

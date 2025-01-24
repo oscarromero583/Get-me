@@ -1,4 +1,13 @@
-.index {
+.index-content {
     position: absolute;
-    display: flex;
+    top: 45vh;
+    left: 70vw;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    font-style: oblique;
 }

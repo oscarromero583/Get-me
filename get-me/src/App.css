@@ -1,0 +1,12 @@
+.app-container {
+    display: flex;
+    position: relative;
+  }
+  
+  .logo {
+    z-index: 1;
+  }
+
+  .index {
+    z-index: 1;
+  }

@@ -1,0 +1,59 @@
+
+
+/* logo.css */
+.logo-container.concept-two {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.logo-svg {
+  animation: pulse 2s infinite ease-in-out;
+}
+
+.logo-svg rect {
+  stroke-dasharray: 580;
+  stroke-dashoffset: 580;
+  animation: draw 2s infinite ease-in-out;
+}
+
+.logo-text {
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 0.1rem;
+  animation: fadeIn 2s infinite alternate;
+}
+
+/* Keyframes for drawing the rectangle */
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 580;
+  }
+  50% {
+    stroke-dashoffset: 290;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Keyframes for pulsing the SVG */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* Keyframes for fading in the text */
+@keyframes fadeIn {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}

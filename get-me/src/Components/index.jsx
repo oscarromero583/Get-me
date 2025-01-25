@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 import Typewriter from "./typewriter";
 import Header from "./header"
+import Icons from "./icons"
 
 function index() {
   return (
@@ -9,6 +10,7 @@ function index() {
     <div><h1>Oscar Romero</h1></div>
     <div><Typewriter/></div>
     <div><Header /></div>
+    <div> <Icons /></div>
     </div>
   )
 }

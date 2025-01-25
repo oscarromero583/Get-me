@@ -1,0 +1,18 @@
+.social-media-links {
+    display: flex;
+    margin-right: 30px;
+  }
+  
+  .social-media-links a {
+    margin: 20px;
+  }
+  
+  .social-media-links svg {
+    transition: transform 0.2s ease-in-out, fill 0.2s ease-in-out;
+    fill: white;
+  }
+  
+  .social-media-links a:hover svg {
+    transform: scale(1.2);
+    fill: chocolate;
+  }

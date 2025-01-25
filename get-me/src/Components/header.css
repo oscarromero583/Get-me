@@ -1,0 +1,31 @@
+.header-container {
+    
+}
+
+.header-main {
+    display: flex;
+    direction: row;
+}
+
+.header-element {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: relative;
+  }
+  
+  .header-element::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: red;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .header-element:hover::after {
+    width: 100%;
+  }

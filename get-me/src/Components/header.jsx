@@ -5,11 +5,11 @@ function header() {
   return (
     <div className='header-container'>
     <div className='header-main'>
-      <div>Home</div>
-      <div>About</div>
-      <div>Portfolio</div>
-      <div>Reume</div>
-      <div>Contact</div>
+      <div className='header-element'>Home</div>
+      <div className='header-element'>About</div>
+      <div className='header-element'>Portfolio</div>
+      <div className='header-element'>Reume</div>
+      <div className='header-element'>Contact</div>
     </div>
     </div>
   )

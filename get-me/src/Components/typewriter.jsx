@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './typewriter.css';
 
 const sentences = [
-  "There are some thing you need to know about me...",
+  "There are some things you need to know about me...",
   "I am a Front-End Developer.",
   "I am always open to correction and learning.",
   "I am team-compatible.",
